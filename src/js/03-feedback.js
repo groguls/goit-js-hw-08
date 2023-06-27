@@ -43,7 +43,7 @@ function onFormSubmit(event) {
 }
 
 function checkLocalStorageData(key) {
-  localStorageData = loadFromLocalStorage(key);
+  const localStorageData = loadFromLocalStorage(key);
   if (localStorageData) {
     const {
       elements: { email, message },
